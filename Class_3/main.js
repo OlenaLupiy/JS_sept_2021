@@ -51,26 +51,26 @@
 //     }
 // }
 // console.log(arr)
-// 8. вивести масив в зворотньому порядку.
+//8. вивести масив в зворотньому порядку.
 // const arr = [2,17,13,6,22,31,45,66,100,-18];
-// for (let i = arr.length; i >=0 ; i--) {
+// for (let i = arr.length-1; i >=0 ; i--) {
 //     console.log(arr[i]);
 // }
 // 9. всі попередні завдання (окрім 8), але в зворотньому циклі (с заду на перед)
 // const arr = [2,17,13,6,22,31,45,66,100,-18];
-// let i = arr.length;
+// let i = arr.length -1;
 // while (i >=0){
 //     console.log(i);
 //     i--;
 // }
 
 // const arr = [2,17,13,6,22,31,45,66,100,-18];
-// for (let i = arr.length; i >=0 ; i--) {
+// for (let i = arr.length -1; i >=0 ; i--) {
 //     console.log(arr[i]);
 // }
 
 // const arr = [2,17,13,6,22,31,45,66,100,-18];
-// let i = arr.length;
+// let i = arr.length - 1;
 // while (i >=0){
 //     if (i % 2 !== 0){
 //         console.log(arr[i]);
@@ -79,14 +79,14 @@
 // }
 
 // const arr = [2,17,13,6,22,31,45,66,100,-18];
-// for (let i = arr.length; i >=0 ; i--) {
+// for (let i = arr.length - 1; i >=0 ; i--) {
 //     if (i % 2 !== 0){
 //         console.log(arr[i]);
 //     }
 // }
 
 // const arr = [2,17,13,6,22,31,45,66,100,-18];
-// let i = arr.length;
+// let i = arr.length - 1;
 // while (i >= 0){
 //     if (i % 2 === 0){
 //         console.log(arr[i]);
@@ -95,14 +95,14 @@
 // }
 
 // const arr = [2,17,13,6,22,31,45,66,100,-18];
-// for (let i = arr.length; i >=0 ; i--) {
+// for (let i = arr.length - 1; i >=0 ; i--) {
 //     if (i % 2 === 0) {
 //         console.log(arr[i]);
 //     }
 // }
 
 // const arr = [2,17,13,6,22,31,45,66,100,-18];
-// for (let i = arr.length; i >=0 ; i--) {
+// for (let i = arr.length - 1; i >=0 ; i--) {
 //     if (arr[i] % 3 === 0){
 //         arr[i] = 'okten';
 //     }

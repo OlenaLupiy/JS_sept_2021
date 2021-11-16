@@ -19,14 +19,16 @@
 // array[2] = 'octen';
 // array[4] = 7;
 // console.log(array);
-// - За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом всередині
 
+
+// - За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом всередині
 // document.write('<div>')
 // for (let i = 0; i < 10; i++) {
 //     document.write(`<div> peace
 //         </div>`)
 // }
 // document.write('</div>')
+
 // - За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом і індексом всередині
 
 // document.write('<div>')
