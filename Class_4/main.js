@@ -76,7 +76,7 @@
 //     for (let i = 0; i < arguments.length; i++) {
 //         if(arguments[i] < min){
 //             min = arguments[i];
-//         } else if (arguments[i] > max){
+//         }   if (arguments[i] > max){
 //             max = arguments[i];
 //         }
 //     }
@@ -121,3 +121,14 @@
 //     return newArr;
 // }
 // console.log(reverse([1, 2, 3, 4]))
+
+function reverse(arr) {
+    const  newArr = [];
+    for (let i = arr.length - 1, ri = 0; i >= 0; i--, ri++) {
+        newArr[ri]= arr[i]
+    }
+    return newArr;
+}
+
+console.log(reverse([1, 2, 3, 4]));
+
