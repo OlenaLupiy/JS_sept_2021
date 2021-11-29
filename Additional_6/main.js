@@ -7,18 +7,15 @@
 //
 // Примітка
 // Для тих, хто дуже розумний, та почне використовувати регулярні вирази одразу "ні". Своїм мозком подумайте над протоколом, з регулярками будете потім бавитись.
-let validator = (str)=>{
-    let count = 0;
-    for (const strElement of str) {
-        if(str.includes('@')){
-            count++;
-            if (count === 1 && strElement.includes('.') && strElement[0]!=='.' || strElement[1]!=='.')
-                return true;
+let validator = (str)=> {
+  let arr =  str.split('@') ;
+    for (const arrElement of arr) {
+              if( arrElement.indexOf('.')>=2){
+                  return true
+              }
+    }      return false
 
-        }
-
-    }   return false
-    }
+}
 
 
 console.log(validator('someemail@gmail.com'));
