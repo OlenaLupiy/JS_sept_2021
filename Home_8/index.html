@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<p id="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis cupiditate deleniti
+  molestias mollitia pariatur porro saepe! Dolorem eaque earum eligendi, iste maxime molestias quam vitae.
+  Dolore hic in quae sed.
+</p>
+
+<div id="rules" class="fc bp">
+  Первое правило Бойцовского клуба: никому не рассказывать о Бойцовском клубе. Второе правило Бойцовского
+  клуба: никогда никому не рассказывать о Бойцовском клубе. Третье правило Бойцовского клуба: в схватке
+  участвуют только двое. Четвертое правило Бойцовского клуба: не более одного поединка за один раз
+</div>
+
+<ul>
+  <li class="fc_rules rule1">Первое правило Бойцовского клуба: никому не рассказывать о Бойцовском клубе.</li>
+  <li class="fc_rules rule2">Второе правило Бойцовского
+    клуба: никогда никому не рассказывать о Бойцовском клубе
+  </li>
+  <li class="fc_rules rule3">Третье правило Бойцовского клуба: в схватке
+    участвуют только двое.
+  </li>
+  <li class="fc_rules rule4">Четвертое правило Бойцовского клуба: не более одного поединка за один раз</li>
+</ul>
+
+
+<script>
+  // Напишіть код,  який за допомоги document.getElementById або document.getElementsByClassName або document.getElementsByTagName :
+  // -- отримує текст з параграфа з id "content"
+  // const textId = document.getElementById('content').innerText;
+  // console.log(textId)
+  // -- отримує текст з блоку з id "rules"
+  // console.log(document.getElementById('rules').innerText);
+  // -- замініть текст параграфа з id 'content' на будь-який інший
+  // document.getElementById('content').innerText = 'не здаватися';
+  // -- замініть текст параграфа з id 'rules' на будь-який інший
+  // document.getElementById('rules').innerText = 'we are the champions'
+  // -- змініть кожному елементу колір фону на червоний
+  // let liFC_rules = document.getElementsByClassName('fc_rules');
+  // for (const item of liFC_rules) {
+  //   item.style.backgroundColor ='red';
+  //   item.style.color = 'blue'
+  // }
+   let pList = document.getElementsByTagName('p');
+  for (const p of pList) {
+    p.style.backgroundColor = 'silver'
+  }
+  // -- змініть кожному елементу колір тексту на синій
+  // -- отримати весь список класів елемента з id=rules і вивести їх в console.log
+  const itemIdRules = document.getElementById('rules');
+  console.log(itemIdRules.classList);
+  // -- поміняти колір тексту у всіх елементів fc_rules на червоний
+  let classFcRules = document.getElementsByClassName('fc_rules');
+  for (const li of classFcRules) {
+    li.style.color = 'red'
+  }
+</script>
+</body>
+</html>
