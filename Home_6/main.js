@@ -36,6 +36,12 @@
 //   document.writeln(arr);
 // }
 // stringToArray('Кожний мисливець бажає знати');
+// let str = 'Кожний мисливець бажає знати';
+// let stringToArray =(str)=>{
+//     return str.split(' ')
+// }
+// console.log(stringToArray(str));
+// document.writeln(stringToArray(str));
 
 // - Напишіть функцію delete_characters(str, length), яка повертає підрядок, що складається із зазначеної кількості символів.
 //     let str = 'Каждый охотник желает знать';
@@ -56,6 +62,10 @@
 // }
 //
 // console.log(delete_characters('Кожний мисливець бажає знати', 8));
+// let delete_characters = (str, length)=>{
+//    return  str.substr(0, length)
+// }
+// console.log(delete_characters('Кожний мисливець бажає знати', 12))
 
 // - Напишіть функцію insert_dash(str), яка приймає рядок str як аргумент і вставляє тире (-) між словами. При цьому всі символи рядка необхідно перевести у верхній регістр.
 //     let str = "HTML JavaScript PHP";
