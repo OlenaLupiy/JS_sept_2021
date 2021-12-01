@@ -3,6 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <title>Title</title>
+  <style>
+    .sept_2021{
+      color: cornflowerblue;
+    }
+  </style>
 </head>
 <body>
 <h1 id="main_header">This is page for task2</h1>
@@ -33,7 +38,7 @@
 <script>
   // Напишіть код, який :
   // a) змінює колір тексту елемнту з ід main_header на назву групи в якій ви вчитесь (mon-year)
-  // document.getElementById('main_header').innerText = 'september - 2021';
+  document.getElementById('main_header').classList.add('sept_2021');
   // b) робить шириниу елементу ul 400px
   // document.getElementsByTagName('ul')[0].style.width = '400px';
   // c) робить шириниу всіх елементів з класом linkList шириною 50%
@@ -86,9 +91,14 @@
   //   item.innerText = text;
   // }
   // l) отримати елементи p та змінити їм padding на 20px
-  let listP = document.getElementsByTagName('p');
-  for (const p of listP) {
-    p.style.padding = '20px'
+  // let listP = document.getElementsByTagName('p');
+  // for (const p of listP) {
+  //   p.style.padding = '20px'
+  // }
+  // отримати елементи з класом text2 та змінити їм текст на назву групи (mon-year. Пример sep-2021)
+  let elemClassText2 = document.getElementsByClassName('text2');
+  for (const item of elemClassText2) {
+    item.innerText = 'sep-2021'
   }
 </script>
 </body>

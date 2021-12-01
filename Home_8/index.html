@@ -40,24 +40,28 @@
   // -- замініть текст параграфа з id 'rules' на будь-який інший
   // document.getElementById('rules').innerText = 'we are the champions'
   // -- змініть кожному елементу колір фону на червоний
-  // let liFC_rules = document.getElementsByClassName('fc_rules');
-  // for (const item of liFC_rules) {
-  //   item.style.backgroundColor ='red';
+  // let childrenlist = document.body.children;
+  // for (const item of childrenlist) {
+  //   item.style.backgroundColor = 'silver'
+  // }
+  // -- змініть кожному елементу колір тексту на синій
+  // let childrenList = document.body.children;
+  // for (const item of childrenList) {
   //   item.style.color = 'blue'
   // }
-   let pList = document.getElementsByTagName('p');
-  for (const p of pList) {
-    p.style.backgroundColor = 'silver'
-  }
-  // -- змініть кожному елементу колір тексту на синій
+  // let allElements = document.querySelectorAll('*');
+  // for (const element of allElements) {
+  //   element.style.backgroundColor = 'pink';
+  //   element.style.color = 'grey'
+  // }
   // -- отримати весь список класів елемента з id=rules і вивести їх в console.log
-  const itemIdRules = document.getElementById('rules');
-  console.log(itemIdRules.classList);
-  // -- поміняти колір тексту у всіх елементів fc_rules на червоний
-  let classFcRules = document.getElementsByClassName('fc_rules');
-  for (const li of classFcRules) {
-    li.style.color = 'red'
-  }
+  // const itemIdRules = document.getElementById('rules');
+  // console.log(itemIdRules.classList);
+  // // -- поміняти колір тексту у всіх елементів fc_rules на червоний
+  // let classFcRules = document.getElementsByClassName('fc_rules');
+  // for (const li of classFcRules) {
+  //   li.style.color = 'red'
+  // }
 </script>
 </body>
 </html>
