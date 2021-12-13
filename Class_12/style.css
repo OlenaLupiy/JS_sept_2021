@@ -1,0 +1,19 @@
+.posts{
+    width: 1400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.post{
+    width: 20%;
+    background: seashell;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid silver;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.post:hover{
+    background: lightcyan;
+    transition: 0.3s;
+}
