@@ -1,0 +1,38 @@
+
+*{
+    padding: 0;
+}
+.posts{
+    display: flex;
+    flex-wrap: wrap;
+}
+.post{
+    background: seashell;
+    color: cornflowerblue;
+    width: 18%;
+    margin: 5px;
+    padding: 5px;
+}
+.post:hover {
+    background: #d8e4ef;
+    transition: .3s;
+    transform: rotateY(10grad);
+}
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1400px;
+}
+.comment{
+    border: 1px solid seashell;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 5px;
+    padding: 5px;
+    width: 250px;
+    background: #d8e4ef;
+
+}
+.comment:hover{
+    background: lightyellow;
+}
