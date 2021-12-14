@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add_10</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .item {
+            width: 23px;
+            height: 28px;
+        }
+
+        .popUp {
+            width: 400px;
+            height: 200px;
+            background: cornsilk;
+            position: absolute;
+            top: -1000px;
+            transition: 1.5s;
+        }
+
+        .show_popup {
+            position: fixed;
+            top: 200px;
+        }
+    </style>
+</head>
+<body>
+<div class="popUp"></div>
+<button id="popBtn">Show me</button>
+
+<div class="container">
+    <div class="slider">
+        <div class="slider_line">
+            <img class="item" src="image/ananas.jpg" alt="ananas">
+            <img class="item" src="image/apple.jpg" alt="apple">
+            <img class="item" src="image/Bananas.jpg" alt="bananas">
+            <img class="item" src="image/Kiwi.jpg" alt="kiwi">
+        </div>
+    </div>
+    <button class="slider_prev">Prev</button>
+    <button class="slider_next">Next</button>
+
+</div>
+
+<p id="main">Lorem ipsum dolor sit amet.</p>
+<button id="btn">delete</button>
+<nav class="item target class" id="new">Lorem ipsum.</nav>
+<div class="div">lolololo</div>
+<script src="main.js"></script>
+</body>
+</html>
