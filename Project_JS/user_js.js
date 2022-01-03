@@ -53,8 +53,8 @@ btnPostOfCurrentUser.onclick = function () {
 }else {
         btnPostOfCurrentUser.innerText = 'Show All Titles of Posts';
         divOfPosts.innerText ='';
-        divOfPosts.style.display = 'none';
-        location.reload()
+
+
     }
 }
 

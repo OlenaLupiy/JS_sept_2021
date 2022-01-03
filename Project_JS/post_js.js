@@ -32,10 +32,10 @@ btnComments.onclick = function () {
             })
     } else {
         btnComments.innerText = 'Show all comments';
-        divPosts.innerText = '';
-        divPosts.style.display = 'none';
-        location.reload();
+        bodyComments.innerText = '';
+
+
+
     }
 }
-
 
